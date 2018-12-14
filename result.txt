@@ -1,0 +1,15 @@
+
+           sym	1	1	1
+main       proc	103	2	2
+           sym	2	1	100
+           sym	2	101	1
+           sym	2	102	1
+           ldc	5
+           lda	2	1
+           add
+           ldc	20
+           sti
+           bgn	1
+           ldp
+           call main
+           end
